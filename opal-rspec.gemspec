@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'opal', ['>= 0.8.0.rc1', '< 1.0']
   # Opal now does not include minitest but we need it for Sprockets/test execution
-  s.add_dependency 'opal-minitest', '<= 0.4'
+  s.add_dependency 'opal-minitest', '>= 0.4'
   s.add_development_dependency 'rake'
   s.add_development_dependency 'yard'
 end
